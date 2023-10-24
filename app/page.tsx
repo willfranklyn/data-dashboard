@@ -54,7 +54,7 @@ const lineOptions = {
 
 export default function Home() {
   
-  const [userInfo, setUserInfo] = useState();
+  const [userInfo, setUserInfo] = useState<any[]>();
 
   useEffect(() => {
     const getData= async () => {
